@@ -20,9 +20,6 @@ class Patient
     end
   end
 
-  def doctor
-    @doctor
-  end 
 
   def doctors
     Appointment.all.map do |appointment|
