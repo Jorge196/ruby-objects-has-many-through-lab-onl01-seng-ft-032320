@@ -19,7 +19,7 @@ class Doctor
 
   def appointments
     Appointment.all.select do |appointment|
-    doctor_who.appointment == self
+    doctor_who.appointment.include(appointment) 
     end
   end
 
