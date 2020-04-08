@@ -18,8 +18,8 @@ class Doctor
   end
 
   def appointments
-    Appointment.new = appointment 
-    end
+    Appointment.new = appointment
+    
   end
 
   def patients
