@@ -8,7 +8,7 @@ class Appointment
     @patient = patient
     @doctor = doctor
     @date = date
-    doctor.add_appointment(self) 
+    
     @@all << self
   end
 
