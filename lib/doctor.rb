@@ -18,7 +18,7 @@ class Doctor
   end
 
   def appointments
-    Appointment.new = 
+    Appointment.new = appointment 
     end
   end
 
