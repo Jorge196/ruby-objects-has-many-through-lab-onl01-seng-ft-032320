@@ -18,8 +18,8 @@ class Doctor
   end
 
   def appointments
-    appointments.map {|appointment|
-      appointment.doctor == self}
+    appointments.map |appointment|
+      appointment.doctor == self
     end
   end
 
