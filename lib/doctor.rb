@@ -19,12 +19,12 @@ class Doctor
 
   def appointments
     Appointment.new = appointment
-    
+
   end
 
   def patients
-    appointments.map do |appointment|
-      appointment.patients
+    self.appointments.collect do |appointment|
+      appointment.patient
     end
   end
 
